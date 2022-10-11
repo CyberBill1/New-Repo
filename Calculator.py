@@ -1,4 +1,8 @@
-#Program make a simple calculator
+#Python Script for Mathematical Operations 
+#By Ifeanyi Barth
+
+
+#Defining Operations
 
 # This function adds two numbers
 def add(x, y):
@@ -47,7 +51,8 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        sleep (3)
+        next_calculation = input("Want to do another calculation? (yes/no): ")
         if next_calculation == "no":
           break
     
